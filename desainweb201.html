@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum desain web</title>
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href=""></a>
+                <img src="WaeRebo.jpg" alt="">
+            </a></li>
+            <li><a href="#" class="text">Wisata Wae Rebo</a></li>
+                <div class="float">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Objek Wisata</a></li>
+                    <li><a href="#">Sarana Akomodasi</a></li>
+                    <li><a href="#">Insight</a></li>
+                </div>
+          </ul>
+<div class="jumbotron">
+    <div class="kotak2">
+            <h1>A MUST VISIT</h1>
+            <h3>Wae Rebo culture village & landmark in flores island</h3>
+        <div class="button">
+            <a href="" class="button1">Jelajahi</a>
+        </div>
+ 
+        <div class=" button01">
+            <a href="" class="button1">Video</a>
+        </div>
+ 
+    </div>
+</div>
+ 
+<section class="content1" id="content">
+    <div class="heading">
+         <h1>Paket Yang <span class="hijau">Di Tawarkan</span></h1>
+    </div>
+        <br>
+        <table bor="1">
+                <tr>
+                    <th>Long Tracking </th>
+                  
+                </tr>
+                <tr>
+                    <td> Harga Mulai 250 ribu / Hari</td>
+                   
+                </tr>
+            </table>
+   
+</section>
+ 
+ 
+<section class="content2" id="content2">
+    <button onclick="myFunction()" class="button3"> Bagaimana kehidupan budaya masyarakat wae rebo  </button>
+ 
+    <div id="myDIV">
+       <div class="box-waerebo">
+           <span>
+          wae rebo adalah  sebuah kampung tradisional Yang terletak di dusun  terpencil tepatnya di Kabupaten Manggarai Privinsi Nusa Tenggara Timur. 
+           </span>
+ 
+           <div class="button4">
+               <b> <a href="">Cari Akimodasi </a></b>
+           </div>
+       </div>
+ 
+        <div class="box-waerebo">
+            <img src="WaeRebo.jpg" alt="">
+        </div>
+    </div>
+ 
+</section>
+ 
+ 
+ 
+<section id="content3" class="content3">
+    <h1>Silahkan Hubungi <span class="hijau">Kami</span></h1>
+   
+    <div class="box-form">
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Masukkan Nama Anda">
+                <input type="text" placeholder="Masukkan Alamat Email Anda">
+                <input type="date">
+                <textarea name="" id=""  placeholder="masukan pesan anda"></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+ 
+</section>
+ 
+<div class="footer">
+    <b>CristoforusDesainweb : </b> <a href="">Developer</a>
+</div>
+ 
+ 
+<script>
+   
+   
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+ 
+ 
+</script>
+ 
+</body>
+</html>
+<style>
+*{
+
+    margin: 0;;
+    padding:20;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+  }
+ 
+ 
+  .navbar{
+      min-width: 50px;
+      background-color:red;
+      opacity:30px;
+  } 
+  .kotak1 {
+      float: right;
+      font-family: sans-serif;
+      font-weight: 600;
+  }
+ 
+  li {
+    float: left;
+    padding: 5px;
+  }
+ 
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+ 
+  .text{
+      margin-left: 50px;
+ 
+  }
+ 
+ 
+.jumbotron{
+   
+    height: 600px;
+    margin-top:0px;
+    font-family: sans-serif;
+    background-image: url('waeRebo.jpg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+ 
+.float {
+    float: right;
+}
+ 
+.kotak2{
+    margin-left: 25px;
+    padding-top: 100px;
+    color:white;
+}
+ 
+.jumbotron .kotak2 h1{
+    font-size: 50px;
+   
+}
+ 
+.button01{
+   
+    width: 150px;
+    height: 40px;
+    background-color:blue;
+   text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+ 
+}
+ 
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+ 
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+ 
+.button01{
+    margin-left: 10px;
+}
+ 
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    text-shadow:red;
+}
+ 
+.button01 a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+ 
+ 
+/* content */
+.hijau{
+    color:wheat;
+}
+.content1{
+    margin-top: 50px;
+}
+    .heading h1{
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: center;
+ 
+    }
+ 
+    table{
+        margin-left: 370px;
+         border-collapse: collapse;
+    }
+ 
+    th, td {
+        padding: 15px;
+        text-align: left;
+      }
+ 
+      tr:nth-child(even) {background-color: rgb(219, 241, 13);}
+ 
+      .penawaran-box {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgb(20, 4, 163);
+        margin-top: 20px;
+        display: none;
+      }
+ 
+      #myDIV {
+         margin-top: 10px;
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        background-color:#61f009;
+       display: none;
+    }
+ 
+      .button3{
+          margin-top: 40px;
+          margin-left: 370px;
+          width:650px;
+          height:50px;
+          cursor: pointer;
+          /* padding: 10px 50px 10px; */
+      }
+ 
+      .box-waerebo{
+          width: 50%;
+          min-height: 100px;
+          text-align: justify;
+          margin-top: 30px;
+      }
+ 
+      .box-waerbo{
+        width: 50%;
+        min-height: 100px;
+       
+    }
+ 
+      .box-waerebo span{
+         text-align: justify;
+         font-family: sans-serif;
+      }
+ 
+      .button4{
+          width: 300px;
+          height: 50px;
+          background-color: blue;
+          margin-top: 10px;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 20px;
+      }
+ 
+      .button4:hover{
+        transition-timing-function: 2s linear;
+        background-color:rgb(32, 32, 131);
+      }
+ 
+      .button4 a{
+          text-decoration: none;
+          color:red;
+      }
+ 
+      .content3{
+          margin-top: 30px;
+      }
+ 
+      .content3 h1{
+          margin-bottom: 30px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: center;
+       
+      }
+ 
+ 
+      .kontak{
+          width: 450px;
+          height: 250px;
+          background-color:red;
+          margin-top: 30px;
+          margin-left: 220px;
+      }
+ 
+      /* form */
+      .box-form{
+          padding: 20px 20px 30px;
+          width: 500px;
+          min-height: 20px;
+          background-color: #CFDAC8;
+         margin-left: 400px;
+          border-radius: 20px;
+      }
+     
+      .form{
+          margin-left: 100px;
+          width: 300px;
+          min-width: 20px;
+          display: block;
+      }
+ 
+      .form button,input,textarea{
+          width: 100%;
+          padding-top: 10px;
+          margin-top: 10px;
+      }
+      /* akhir form */
+ 
+      .form button{
+            border-radius: 10px;
+            padding: 10px 10px 10px;
+      }
+ 
+   
+/* akhir content */
+ 
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color:blue;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.navbar img{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top:0px;
+    bottom: 10px;
+}
+
+</style>
+
